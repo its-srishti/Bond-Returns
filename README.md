@@ -130,18 +130,6 @@ pipe = Pipeline([('scaler', StandardScaler()), ('pca', PCA())])
 factors = pipe.fit_transform(bond_returns)
 ```
 
-## 📁 Project Structure
-
-```
-bond-returns/
-├── README.md
-├── bond_analysis.ipynb          # Main analysis notebook
-├── secret.py                    # API credentials (not in repo)
-├── requirements.txt
-└── data/
-    └── bond_indexes.csv         # Cached bond index data
-```
-
 ## 📚 Theoretical Background
 
 ### Duration Mathematics
